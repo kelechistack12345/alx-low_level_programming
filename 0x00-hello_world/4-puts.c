@@ -1,4 +1,10 @@
 #include <stdio.h>
+/**
+ * main - Entry point
+ * Description:'Write a C program that prints exact
+ * Return:Always 0 (Success)
+ */
+
 
 int main(void)
 {
