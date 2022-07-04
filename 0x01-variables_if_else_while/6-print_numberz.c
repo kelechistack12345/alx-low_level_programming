@@ -4,17 +4,15 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
+ *
  */
 int main(void)
 {
-char c;
+int i;
 
-for (c = 'a'; c <= 'z'; c++)
+for (i = '0'; i <= '9'; i++)
 {
-if ((c != 'e') && (c != 'q'))
-{
-putchar(c);
-}
+putchar(i);
 }
 putchar('\n');
 return (0);
