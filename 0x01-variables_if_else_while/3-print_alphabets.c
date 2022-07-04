@@ -2,18 +2,16 @@
 
 /**
  * main - Entry point
- *
  * Return: Always 0 (Success)
- * /
- int main(void)
- {
- char c;
-
- for (c = 'a'; c <= 'z'; c++)
- putchar(c);
- for (c = 'A'; c <= 'Z'; c++)
- putchar(c);
-
- putchar('\n');
- return (0);
- }
+ */
+int main(void)
+{
+   int ch;
+   for  (ch = 97; ch <= 122; ch++)
+   {
+      putchar(ch);
+   }
+   putchar(10);
+   
+   return (0);
+}   
