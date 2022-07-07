@@ -1,11 +1,11 @@
-#include"main.h"
+#include "main.h"
 
 /**
- *main - Print_putchar
+ *main - Print _putchar
  *
- *Return: Always 0(Success)
+ * Return: Always 0(Success)
  */
- int main(void)
+int main(void)
 {
 	_putchar(95);
 	_putchar(112);
