@@ -1,40 +1,16 @@
 #include "main.h"
 
 /**
- * _atoi - Convert a string to an integer.
- * @s: The pointer to convert
+ * _strlen -give the length of a string
+ * @s: the string
  *
- * Return: A integer
+ * Return: the length of a string.
  */
-int _atoi(char *s)
+int _strlen(char *s)
 {
-	int c = 0;
-	unsigned int ni = 0;
-	int min = 1;
-	int isi = 0;
+	int i;
 
-	while (s[c])
-	{
-		if (s[c] == 45)
-		{
-			min *= -1;
-		}
-
-		while (s[c] >= 48 && s[c] <= 57)
-		{
-			isi = 1;
-			ni = (ni * 10) + (s[c] - '0');
-			c++;
-		}
-
-		if (isi == 1)
-		{
-			break;
-		}
-
-			c++;
-		}
-
-		ni *= min;
-		return (ni);
-	}
+	for (i = 0; s[i] != '\0'; i++)
+		;
+	return (i);
+}
