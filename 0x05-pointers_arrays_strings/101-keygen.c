@@ -1,23 +1,37 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <math.h>
 
 /**
- * print_number - prints an integer
- * @n:.input integer parameter
+ * main - print password.
  *
- *
+ * Return: 0.
  */
-void print_number(int n)
+int main(void)
 {
-	unsigned int i = n;
+	int ascii = 2772, i = 0, j, random;
+	char password[100];
+	time_t t;
 
-	if (n < 0)
+	srand((int) time(&t));
+	while (ascii > 126)
 	{
-		_putchar(45);
-		i = -i;
+		random = rand() % 126;
+		password[i] = random;
+		ascii -= random;
+		i++;
 	}
-	if (i / 10)
+	if (ascii > 0)
+		password[i] = ascii;
+	else
 	{
-		print_number(i / 10);
+		i--;
 	}
-	_putchar(i % 10 + '0');
+
+	for (j = 0; j <= i; j++)
+	{
+		printf("%c", password[j]);
+	}
+	return (0);
 }
