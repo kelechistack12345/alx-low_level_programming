@@ -1,0 +1,30 @@
+)
+sitive_or_negative.c ==========                                                                                                                                       
+
+0-positive_or_negative.c:1: ERROR: trailing whitespace                                                                                                                               
+
+0-positive_or_negative.c:2: ERROR: trailing whitespace                                                                                                                               
+
+0-positive_or_negative.c:3: ERROR: trailing whitespace                                                                                                                               
+
+0-positive_or_negative.c:5: ERROR: open brace '{' following function declarations go on the next line                                                                                
+
+0-positive_or_negative.c:9: ERROR: that open brace { should be on the next line                                                                                                      
+
+0-positive_or_negative.c:9: WARNING: braces {} are not necessary for any arm of this statement                                                                                       
+
+0-positive_or_negative.c:11: ERROR: that open brace { should be on the next line                                                                                                     
+
+0-positive_or_negative.c:11: ERROR: spaces required around that '=' (ctx:VxV)                                                                                                        
+
+0-positive_or_negative.c:11: ERROR: do not use assignment in if condition                                                                                                            
+
+0-positive_or_negative.c:11: ERROR: else statement following close brace '}' sould be on the next line                                                                               
+
+0-positive_or_negative.c:13: ERROR: that open brace { should be on the next line                                                                                                     
+
+0-positive_or_negative.c:13: ERROR: spaces required around that '<' (ctx:VxV)                                                                                                        
+
+0-positive_or_negative.c:13: ERROR: space required before the open brace '{'                                                                                                         
+
+0-positive_or_negative.c:13: ERROR: else statement following close brace '}' sould be on the next line i
