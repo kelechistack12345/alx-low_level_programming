@@ -16,7 +16,6 @@ int main(void)
 	{
 		putchar(ch);
 	}
-	printf("lowercase characters : \n");
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
