@@ -11,7 +11,6 @@ int main(void)
 {
 	char ch;
 
-	printf("uppercase characters : \n");
 
 	for (ch = 'A'; ch <= 'Z'; ch++)
 	{
